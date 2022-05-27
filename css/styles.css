@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*----Navbar Section----*/
+
+.navbar {
+    height: 7.5vh;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    backdrop-filter: blur(100);   
+
+    z-index: 100;
+}
+
+.nav-logo {
+    margin-left: 0.75rem;
+    margin-bottom: 0px;
+
+    color: #0C090A;
+    
+    text-decoration: none;
+    letter-spacing: 2px;  
+    -webkit-text-stroke: 1.5px transparent;
+
+    transition: color 0.10s ease-in-out, background-color 0.10s, -webkit-text-stroke 0.10s ease-in-out;
+}
+
+.nav-logo:hover {
+    background-color: transparent;
+    color: white;
+
+    -webkit-text-stroke: 1.5px #0C090A;
+}
+
+.nav-ul {
+    margin-bottom: -5px;
+}
+
+.navbar-btns {
+    margin-left: 3rem;
+    margin-right: 1rem;
+
+    text-decoration: none;
+    list-style: none;
+
+    background-color: transparent;
+    border-radius: 15px;
+}
+
+.navbar-btns:hover {
+    color: white;
+}
+
+#navbar-btn1:hover {
+    background-color: #2C42FF;
+}
+
+#navbar-btn2:hover {
+    background-color: #0C090A;
+}
+
+#navbar-btn3:hover {
+    background-color: #FFC045;
+}
+
+
+
+/*----Home Section----*/
+
+
+.home {
+    height: 100vh;
+    width: 100%;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+}
+
+.abt-top {
+    text-align: center;
+}
+
+.abt-bottom {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-items: end;
+}
+
+.abt-bottom img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.rect1-abt {
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/*----Projects Section----*/
+
+
+.projects {
+    height: 100vh;
+    width: 100%;
+
+    display: flex; 
+    justify-content: center;
+
+    position: relative;
+}
+
+.project-block-container {
+    height: 100vh;
+    width: 70%;
+}
+
+.project-block {
+    height: 16rem;
+    width: 16rem;
+}
+
+.slanted-background {
+    transform: rotate(-35deg);
+
+    position: absolute;
+}
+
+.project-background-text {
+
+    transform: rotate(0deg);
+}
+
+
+
+/*----Contact Section----*/
+
+.contact {
+    height: 100vh;
+    width: 100%;
+}

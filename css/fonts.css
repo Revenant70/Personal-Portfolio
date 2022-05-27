@@ -1,0 +1,50 @@
+* {
+    --base-font-size: 16px;
+    --base-font: "Times new roman"; 
+
+    font-size: var(--base-font-size);
+    font-family: var(--base-font);
+}
+
+h1 {
+    font-size: 4.209rem;
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+
+
+/*----Navbar Section----*/
+
+.nav-logo {
+    font-style: italic;  
+}
+
+.nav-ul li {
+    font-size: 18px;
+}
+
+/*----Home Section----*/
+
+
+
+/*----Projects Section----*/
+
+
+
+/*----Contact Section----*/
+
