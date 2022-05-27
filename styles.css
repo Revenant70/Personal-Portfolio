@@ -4,8 +4,21 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    height: 10vh;
+    width: 100%;
+}
+
+.nav-ul button {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+    text-decoration: none;
+    list-style: none;
+}
+
 .home {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -45,6 +58,32 @@
 .projects {
     height: 100vh;
     width: 100%;
+
+    display: flex; 
+    justify-content: center;
+
+    position: relative;
+}
+
+.project-block-container {
+    height: 100vh;
+    width: 70%;
+}
+
+.project-block {
+    height: 16rem;
+    width: 16rem;
+}
+
+.slanted-background {
+    transform: rotate(-35deg);
+
+    position: absolute;
+}
+
+.project-background-text {
+
+    transform: rotate(0deg);
 }
 
 .contact {
