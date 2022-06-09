@@ -1,0 +1,44 @@
+* {
+    --general-background: #0C090A;
+    --general-text: #fff;
+}
+
+/*----General----*/
+
+
+
+body {
+    background-color: var(--general-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--general-text);
+}
+
+p {
+    color: var(--general-text)
+}
+
+ul li, ol li, i{
+    color: var(--general-text)
+}
+
+/*----Details----*/
+
+.home {
+    background-color: var(--general-background);
+}
+
+.projects {
+    background-color: var(--general-background);
+}
+
+.nav-logo {
+    color: #fff;
+}
+
+.nav-logo:hover {
+    background-color: transparent;
+    color: #0C090A;
+    -webkit-text-stroke: 1.5px #fff;
+}

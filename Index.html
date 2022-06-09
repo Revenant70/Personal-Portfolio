@@ -7,9 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
     <link rel="stylesheet" href="/css/fonts.css" type="text/css">
+    <link id="theme-css" class="" rel="stylesheet" href="/css/light-mode-theme.css">
     <title>Personal-Portfolio</title>
 </head>
-<body class="container-fluid">
+<body class="main-background">
     <nav class="navbar">
         <div class="container-fluid">
             <a href="#home">
@@ -20,17 +21,20 @@
                     <button id="navbar-btn1" class="navbar-btns btn"><li>About</li></button>
                 </a>
                 <a href="#projects">
-                    <button href="#projects" id="navbar-btn2" class="navbar-btns btn"><li>Work</li></button>
+                    <button id="navbar-btn2" class="navbar-btns btn"><li>Work</li></button>
                 </a>
                 <a href="#contact">
-                    <button href="#contact" id="navbar-btn3" class="navbar-btns btn"><li>Contact</li></button>
+                    <button id="navbar-btn3" class="navbar-btns btn"><li>Contact</li></button>
                 </a>
             </ul> 
         </div>
     </nav>
     <main class="main">
         <div class="home" id="home">
-
+            <button class="theme-change-btn btn">
+                <i class="fa-solid fa-sun fa-2xl"></i>
+            </button>
+            <img class="img-fluid home-background-img" src="https://github.com/Revenant70/Personal-Portfolio/blob/main/Images/Home%20Background.jpg?raw=true2" alt="Image of two trees upon a mountain">
         </div>
         <div class="about" id="about">
             <div class="abt-top">
@@ -39,7 +43,7 @@
             <div class="abt-bottom">
                 <div class="rect1-abt"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae id rerum praesentium consequuntur cum, non quaerat vitae ratione animi quasi, neque cupiditate provident, debitis corporis. Culpa, assumenda? Cumque, quod aliquam.</p>
-                <img class="rounded" src="https://github.com/Revenant70/Personal-Portfolio/blob/main/Images/kal-visuals-PFC2fY9LE_g-unsplash.jpg?raw=true">
+                <img class="rounded img-fluid" src="https://github.com/Revenant70/Personal-Portfolio/blob/main/Images/kal-visuals-PFC2fY9LE_g-unsplash.jpg?raw=true">
             </div>
         </div>
         <div class="projects" id="projects">
@@ -47,11 +51,13 @@
                 <div class="project-background-text">Recent Projects</div>
             </div>
         </div>
-        <div class="contact" id="contact">
+        <div class="contact container-fluid" id="contact">
 
         </div>
     </main>
 </body>
+<script src="https://kit.fontawesome.com/fcc95a7385.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <script src="/scripts/app.js"></script>
+<script src="/scripts/theme-changer.js"></script>
 </html>
