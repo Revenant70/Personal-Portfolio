@@ -1,6 +1,9 @@
 * {
-    --general-background: #0C090A;
-    --general-text: #fff;
+    --general-background: #16161a;
+    --headline-text: #fffffe;
+    --paragraph-text: #94a1b2;
+    --button-text: #fffffe;
+    --button: #7f5af0;
 }
 
 /*----General----*/
@@ -12,26 +15,26 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--general-text);
+    color: var(--headline-text);
 }
 
 p {
-    color: var(--general-text)
+    color: var(--paragraph-text)
 }
 
-ul li, ol li, i{
-    color: var(--general-text)
+ul li, ol li{
+    color: var(--button-text)
+}
+
+i, button {
+    color: var(--button)
 }
 
 /*----Details----*/
 
-.home {
-    background-color: var(--general-background);
-}
 
-.projects {
-    background-color: var(--general-background);
-}
+
+/*----navbar section---*/
 
 .nav-logo {
     color: #fff;
@@ -41,4 +44,24 @@ ul li, ol li, i{
     background-color: transparent;
     color: #0C090A;
     -webkit-text-stroke: 1.5px #fff;
+}
+
+/*----home section---*/
+
+.home {
+    background-color: var(--general-background);
+}
+
+.theme-change-btn i {
+    color: var(--button-text);
+}
+
+.theme-change-btn {
+    border-color: var(--button-text);
+}
+
+/*----projects section---*/
+
+.projects {
+    background-color: var(--general-background);
 }

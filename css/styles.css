@@ -82,7 +82,7 @@ a {
 
 
 .home {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 
     position: relative;
@@ -93,7 +93,7 @@ a {
 }
 
 .about {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 
     background-color: #2C42FF;
@@ -119,7 +119,7 @@ a {
 .rect1-abt {
     height: 400px;
     width: 200px;
-    background-color: aqua;
+    background-color: white;
 
     position: absolute;
 
@@ -135,12 +135,14 @@ a {
     justify-content: center;
     align-items: center;
 
-    position: absolute;
+    position: fixed;
 
     border-radius: 100%;
 
     bottom: 0.75em;
     left: 0.45em;
+
+    z-index: 9999;
 }
 
 .theme-change-btn:hover {
@@ -153,7 +155,7 @@ a {
 
 
 .projects {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 
     display: flex; 
@@ -163,7 +165,7 @@ a {
 }
 
 .project-block-container {
-    height: 100vh;
+    height: 200vh;
     width: 70%;
 }
 
@@ -188,7 +190,7 @@ a {
 /*----Contact Section----*/
 
 .contact {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 
     background-color: #FFC045;
