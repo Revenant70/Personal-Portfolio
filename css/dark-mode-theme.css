@@ -1,9 +1,26 @@
 * {
+    /*----Elements----*/
+    
     --general-background: #16161a;
     --headline-text: #fffffe;
     --paragraph-text: #94a1b2;
     --button-text: #fffffe;
     --button: #7f5af0;
+
+    /*----Illustration----*/
+
+    --stroke: #010101;
+    --main: #fffffe;
+    --highlight: #7f5af0;
+    --secondary: #72757e;
+    --tertiary: #2cb67d;
+
+    /*----Alternative----*/
+
+    --alt-background: #242629;
+    --sub-headline: #94a1b2;
+    --card-background: #16161a;
+    --card-paragraph: #94a1b2;
 }
 
 /*----General----*/
@@ -27,7 +44,7 @@ ul li, ol li{
 }
 
 i, button {
-    color: var(--button)
+    color: var(--button-text)
 }
 
 /*----Details----*/
@@ -46,22 +63,48 @@ i, button {
     -webkit-text-stroke: 1.5px #fff;
 }
 
-/*----home section---*/
-
-.home {
-    background-color: var(--general-background);
-}
-
-.theme-change-btn i {
+.navbar-btns:hover {
     color: var(--button-text);
 }
 
-.theme-change-btn {
-    border-color: var(--button-text);
+#navbar-btn1:hover {
+    background-color: var(--button);
 }
 
-/*----projects section---*/
+#navbar-btn2:hover {
+    background-color: var(--button);
+}
+
+#navbar-btn3:hover {
+    background-color: var(--button);
+}
+
+/*----Home section----*/
+
+.home-background-img {
+    min-width: 100%;
+
+    filter: invert();
+}
+
+/*----About section----*/
+
+.about {
+    background-color: var(--general-background);
+}
+
+.rect1-abt {
+    background-color: var(--alt-background);
+}
+
+/*----Projects section----*/
 
 .projects {
+    background-color: var(--alt-background)
+}
+
+/*----Contact section----*/
+
+.contact {
     background-color: var(--general-background);
 }

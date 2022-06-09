@@ -44,7 +44,7 @@ i, button {
 /*----Navbar section----*/
 
 .nav-logo {
-    color: var(--button-text)
+    color: var(--button-text);
 }
 
 .nav-logo:hover {
