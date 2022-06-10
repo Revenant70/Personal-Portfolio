@@ -1,0 +1,99 @@
+* {
+    /*----Elements----*/
+
+    --general-background: #faeee7;
+    --headline-text:#33272a;
+    --paragraph-text: #594a4e;
+    --button-text:#33272a;
+    --button: #ff8ba7;
+
+    /*----Illustration/Background----*/
+
+    --stroke: #33272a;
+    --main: #fffffe;
+    --highlight: #ff8ba7;
+    --secondary: #ffc6c7;
+    --tertiary: #c3f0ca;
+    --quaternary: #FFC045;
+}
+
+body {
+    background-color: var(--general-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--headline-text);
+}z
+
+p {
+    color: var(--paragraph-text)
+}
+
+ul li, ol li {
+    color: var(--button-text)
+}
+
+i, button {
+    color: var(--button-text);
+}
+
+/*----Details----*/
+
+
+
+/*----Navbar section----*/
+
+.nav-logo {
+    color: var(--button-text);
+}
+
+.nav-logo:hover {
+    background-color: transparent;
+    color: #fff;
+    -webkit-text-stroke: 1.5px var(--button-text)
+}
+
+.navbar-btns:hover {
+    color: var(--button-text);
+}
+
+#navbar-btn1:hover {
+    background-color: var(--button);
+}
+
+#navbar-btn2:hover {
+    background-color: var(--button);
+}
+
+#navbar-btn3:hover {
+    background-color: var(--button);
+}
+
+/*----Home section----*/
+
+.home {
+    background-color: var(--general-background);
+}
+
+
+/*----About section----*/
+
+.about {
+    background-color: var(--general-background);
+}
+
+.rect1-abt {
+    background-color: var(--main);
+}
+
+/*----Projects section----*/
+
+.projects {
+    background-color: var(--main);
+}
+
+/*----Contact section----*/
+
+.contact {
+    background-color: var(--general-background);
+}

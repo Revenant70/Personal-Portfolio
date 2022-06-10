@@ -35,12 +35,12 @@ a {
     letter-spacing: 2px;  
     -webkit-text-stroke: 1.5px transparent;
 
-    transition: color 0.10s ease-in-out, background-color 0.10s, -webkit-text-stroke 0.10s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s, -webkit-text-stroke 0.10s ease-in-out;
 }
 
 .nav-logo:hover {
     background-color: transparent;
-    color: white;
+    color: #ffffff;
 
     -webkit-text-stroke: 1.5px #0C090A;
 }
@@ -61,7 +61,7 @@ a {
 }
 
 .navbar-btns:hover {
-    color: white;
+    color: #ffffff;
 }
 
 #navbar-btn1:hover {
@@ -84,11 +84,19 @@ a {
 .home {
     height: 100vh;
     width: 100%;
+
+    position: relative;
+}
+
+.home-background-img {
+    min-width: 100%;
 }
 
 .about {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
+
+    background-color: #2C42FF;
 
     position: relative;
 }
@@ -111,12 +119,34 @@ a {
 .rect1-abt {
     height: 400px;
     width: 200px;
-    background-color: aqua;
+    background-color: white;
 
     position: absolute;
 
     bottom: 0;
     left: 0;
+}
+
+.theme-change-btn {
+    height: 4.5rem;
+    width: 4.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+
+    border: none;
+
+    bottom: 0.75em;
+    left: 0.45em;
+
+    z-index: 9999;
+}
+
+.theme-change-btn:hover {
+    cursor: pointer;
 }
 
 
@@ -125,7 +155,7 @@ a {
 
 
 .projects {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 
     display: flex; 
@@ -135,7 +165,7 @@ a {
 }
 
 .project-block-container {
-    height: 100vh;
+    height: 200vh;
     width: 70%;
 }
 
@@ -160,6 +190,8 @@ a {
 /*----Contact Section----*/
 
 .contact {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
+
+    background-color: #FFC045;
 }
